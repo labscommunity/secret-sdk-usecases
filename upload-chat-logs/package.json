@@ -1,0 +1,21 @@
+{
+  "name": "persist-chat-logs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/core": "^0.3.49",
+    "arweave-storage-sdk": "^1.4.4",
+    "dotenv": "^16.5.0",
+    "langchain": "^0.3.24",
+    "secret-ai-sdk-ts": "^0.1.0",
+    "ts-node": "^10.9.2"
+  }
+}
