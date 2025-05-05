@@ -1,0 +1,35 @@
+{
+  "name": "secret-ai-trading-agent-ts",
+  "version": "1.0.0",
+  "description": "TypeScript version of the Secret AI Trading Agent",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/chat.js",
+    "dev": "ts-node src/chat.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "secret-network",
+    "ai",
+    "typescript",
+    "trading"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@langchain/core": "^0.3.51",
+    "arweave-storage-sdk": "^1.4.5",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "secret-ai-sdk-ts": "^0.1.0",
+    "secretjs": "^1.15.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "@types/sqlite3": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
